@@ -2,7 +2,7 @@ FROM alpine:latest
 ENV http_proxy ${http_proxy}
 ENV https_proxy ${https_proxy}
 
-RUN apk add --no-cache python && \
+RUN apk add --no-cache python2-dev && \
     python -m ensurepip && \
     rm -r /usr/lib/python*/ensurepip && \
     pip install --upgrade pip setuptools && \
