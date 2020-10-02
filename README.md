@@ -57,7 +57,7 @@ Or build using proxy
 
 Then to generate example templates
 
-	docker run -v $(pwd)/Pystacks:/opt/app pystacks generateTemplate iam_policies aps2
+	docker run -v $(pwd)/PyStacks:/opt/app pystacks generateTemplate iam_policies aps2
 
 Note: Pystacks expects a configs/user/ folder in the root directory
 
